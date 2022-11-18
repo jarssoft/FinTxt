@@ -1,0 +1,12 @@
+{
+  "name": "FinTxt",
+  "description": "Teletext Service from Finnish Public Media Company Yle.",
+  "launch_path": "/index.html",
+  "icons": {
+    "32": "/icons/icon32x32.png"
+  },
+  "developer": {
+    "name": "Jari Saari",
+    "url": "https://github.com/jarssoft"
+  }
+}

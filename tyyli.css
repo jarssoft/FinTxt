@@ -1,0 +1,87 @@
+html, body {
+  margin: 0; 
+  padding: 0;
+  height: 100%;
+  background-color: black;
+}
+
+form, small {
+  width: 290px;
+  margin: 0; 
+  padding: 0;
+  color: white;
+  background-color: black;
+  font-size: 11px;
+  margin-left: 0px;
+  font-weight: bold;
+  font-family: "System", monospace, sans-serif;
+  display: block;
+}
+
+input[type=number] {
+  width: 40px;
+  font-size: 11px;
+  box-sizing: none;
+  border: 0px solid red;
+  border-radius: 0px;
+  /*font-size:9px;*/
+  font-weight: bold;
+  font-family: "System", monospace, sans-serif;
+  
+  
+}
+
+
+img {
+  margin: 0; 
+  padding: 0;
+  /*width: 247px;*/
+  
+  /* pystynÃ¤yttÃ¶ */
+  width: 240px;
+  height: 282px;
+  
+  
+  /* vaakanÃ¤yttÃ¶ */
+  /*
+  width: 290px;
+  height: 227px;
+  */
+  
+  /*margin-left: -7px;*/
+}
+
+
+img.vaaka1 {
+
+  transform: rotate(90deg) scale(1.15, 1.5) translate(-5px, 60px);
+  
+}
+
+img.vaaka2 {
+
+  transform: rotate(90deg) scale(1.15, 1.5) translate(-5px, -50px);
+  
+}
+
+.wrapper{
+   
+   /* pystynÃ¤yttÃ¶ */
+   
+   height:100vw;
+   width:100vh;
+
+}
+
+.vaaka{
+   
+   /* vaakanÃ¤yttÃ¶ */
+   
+   transform: rotate(90deg);
+   /*transform-origin:bottom left;*/
+   /*position:absolute;*/
+   /*top:-335px; */
+   height:100vw;
+   width:100vh;
+
+}

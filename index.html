@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="tyyli.css">
+    
+    <title>MiniTeleText</title>
+
+    <style>
+      body {
+        border: 1px solid black;
+      }
+    </style>
+
+    <!-- Inline scripts are forbidden in Firefox OS apps (CSP restrictions),
+         so we use a script file. -->
+    <script src="app.js" defer></script>
+
+  </head>
+
+  <body onload="kello();vaihda();">
+    
+     <div class="wrapper">
+
+        <form class="hidden" action="javascript:vaihda();" onkeyup="javascript:vaihda();"  onfocusout="closeFullscreen();window.close();">
+           <small>
+              P<input id="numero" name="numero" type="number" value="100" onkeypress="keyPressed(event);" size="3" maxlength="3" min="100" max="899" autofocus  onblur="closeFullscreen();window.close();" />
+              <span class="time" id="txt"></span>
+           </small>
+        </form>
+
+        <img class="" id="sivu" src="" onerror="myFunction()" onkeypress="keyPressed(event);">
+
+     </div>
+
+  </body>
+
+</html>
+
