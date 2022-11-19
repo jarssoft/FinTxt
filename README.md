@@ -1,6 +1,8 @@
 # FinTxt
 Finnish tele-text for Kaios. 
 
+![screenshot](/doc/screenshot.png)
+
 This application uses API of Finnish Public Media Company Yle.
 
 ## How to use
