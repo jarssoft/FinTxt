@@ -1,9 +1,14 @@
 # FinTxt
-Finnish tele-text for Kaios. 
+Finnish teletext for Kaios. 
 
 ![screenshot](/doc/screenshot.png)
 
 This application uses API of Finnish Public Media Company Yle.
+
+## Features
+- Looks like original
+- Real feeling with physical button
+- Next page is loaded already for faster browsing.
 
 ## How to use
 
